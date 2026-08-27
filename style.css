@@ -1,0 +1,29 @@
+ 
+head{
+    background-color: rgb(160, 153, 145);
+}
+.lobo1 {
+    background-color: rgb(169, 200, 239);
+    color: black;
+    text-align: left;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+.lobo{
+    font-size: 25px; 
+}
+img{
+    width: 400px
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+h2{
+    margin-left: 6px;
+    font-size: 30px;
+}
+.lobo1 p{
+    margin-left: 6px;
+}
