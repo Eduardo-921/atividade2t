@@ -16,15 +16,19 @@
         <p>O Volkswagen Fusca é o carro mais produzido do mundo em uma única plataforma, acumulando 21.529.464 unidades fabricadas entre 1938 e 2003. Símbolo máximo da motorização popular e da cultura automotiva, ele marcou gerações globalmente, especialmente no Brasil, onde virou paixão nacional.</p>
         <img src="fusca.webp" alt="">
         <button>👍 <span>0</span></button>
+        <button>👎 <span>0</span></button>
     </div>
 </body>
 <script>
-    const botao = document.querySelector("button");
-    botao.addEventListener("click", botaoclicado);
-    function botaoclicado(){
-        console.log("fui clicado");
-        let texto = botao.querySelector("span");
-        texto.textContent++;
-}
+    const botoes = document.querySelectorAll("button");
+    botoes.forEach(function(botao){
+        botao.addEventListener("click", botaoclicado);
+        function botaoclicado(){
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    }
+)
 </script>
 </html>
